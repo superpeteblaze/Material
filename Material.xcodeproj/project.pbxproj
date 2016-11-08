@@ -86,9 +86,6 @@
 		96BCB7D51CB40DC500C806FE /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB78C1CB40DC500C806FE /* View.swift */; };
 		96BCB7D71CB40DC500C806FE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB78E1CB40DC500C806FE /* Menu.swift */; };
 		96BCB7D81CB40DC500C806FE /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB78F1CB40DC500C806FE /* MenuController.swift */; };
-		96BCB7D91CB40DC500C806FE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB7901CB40DC500C806FE /* NavigationBar.swift */; };
-		96BCB7DA1CB40DC500C806FE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB7911CB40DC500C806FE /* NavigationController.swift */; };
-		96BCB7DB1CB40DC500C806FE /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB7921CB40DC500C806FE /* NavigationItem.swift */; };
 		96BCB7DC1CB40DC500C806FE /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB7931CB40DC500C806FE /* RaisedButton.swift */; };
 		96BCB7DD1CB40DC500C806FE /* RobotoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB7941CB40DC500C806FE /* RobotoFont.swift */; };
 		96BCB7DE1CB40DC500C806FE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCB7951CB40DC500C806FE /* SearchBar.swift */; };
@@ -154,9 +151,6 @@
 		96BCB8431CB4115200C806FE /* ToolbarController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB7A01CB40DC500C806FE /* ToolbarController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCB8441CB4115200C806FE /* BottomNavigationController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB7581CB40DC500C806FE /* BottomNavigationController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCB8451CB4115200C806FE /* BottomTabBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB7591CB40DC500C806FE /* BottomTabBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		96BCB8461CB4115200C806FE /* NavigationBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB7901CB40DC500C806FE /* NavigationBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		96BCB8471CB4115200C806FE /* NavigationController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB7911CB40DC500C806FE /* NavigationController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		96BCB8481CB4115200C806FE /* NavigationItem.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB7921CB40DC500C806FE /* NavigationItem.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCB8491CB4115200C806FE /* Text.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB79B1CB40DC500C806FE /* Text.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCB84A1CB4115200C806FE /* TextField.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB79C1CB40DC500C806FE /* TextField.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCB84B1CB4115200C806FE /* TextStorage.swift in Headers */ = {isa = PBXBuildFile; fileRef = 96BCB79D1CB40DC500C806FE /* TextStorage.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -273,9 +267,6 @@
 		96BCB78C1CB40DC500C806FE /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		96BCB78E1CB40DC500C806FE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; tabWidth = 4; };
 		96BCB78F1CB40DC500C806FE /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		96BCB7901CB40DC500C806FE /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		96BCB7911CB40DC500C806FE /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		96BCB7921CB40DC500C806FE /* NavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
 		96BCB7931CB40DC500C806FE /* RaisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
 		96BCB7941CB40DC500C806FE /* RobotoFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotoFont.swift; sourceTree = "<group>"; };
 		96BCB7951CB40DC500C806FE /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -620,9 +611,6 @@
 		96BCB8011CB40F1700C806FE /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				96BCB7901CB40DC500C806FE /* NavigationBar.swift */,
-				96BCB7911CB40DC500C806FE /* NavigationController.swift */,
-				96BCB7921CB40DC500C806FE /* NavigationItem.swift */,
 				96BCB7971CB40DC500C806FE /* NavigationDrawerController.swift */,
 			);
 			name = Navigation;
@@ -828,9 +816,6 @@
 				96BCB8431CB4115200C806FE /* ToolbarController.swift in Headers */,
 				96BCB8441CB4115200C806FE /* BottomNavigationController.swift in Headers */,
 				96BCB8451CB4115200C806FE /* BottomTabBar.swift in Headers */,
-				96BCB8461CB4115200C806FE /* NavigationBar.swift in Headers */,
-				96BCB8471CB4115200C806FE /* NavigationController.swift in Headers */,
-				96BCB8481CB4115200C806FE /* NavigationItem.swift in Headers */,
 				96BCB8491CB4115200C806FE /* Text.swift in Headers */,
 				96BCB84A1CB4115200C806FE /* TextField.swift in Headers */,
 				96BCB84B1CB4115200C806FE /* TextStorage.swift in Headers */,
@@ -1115,7 +1100,6 @@
 				96BCB7D21CB40DC500C806FE /* TableViewCell.swift in Sources */,
 				96F1DC881D654FDF0025F925 /* Material+CALayer.swift in Sources */,
 				96BCB7B61CB40DC500C806FE /* Motion.swift in Sources */,
-				96BCB7DB1CB40DC500C806FE /* NavigationItem.swift in Sources */,
 				96BCB7E01CB40DC500C806FE /* NavigationDrawerController.swift in Sources */,
 				9628645F1D540AF300690B69 /* DynamicFontType.swift in Sources */,
 				961EFC581D738FF600E84652 /* SnackbarController.swift in Sources */,
@@ -1125,7 +1109,6 @@
 				96C1C8811D42C62800E6608F /* Material+Array.swift in Sources */,
 				96BCB7E31CB40DC500C806FE /* TabBar.swift in Sources */,
 				96BCB7CD1CB40DC500C806FE /* PulseView.swift in Sources */,
-				96BCB7DA1CB40DC500C806FE /* NavigationController.swift in Sources */,
 				96BCB7A81CB40DC500C806FE /* FabButton.swift in Sources */,
 				96BCB7E41CB40DC500C806FE /* Text.swift in Sources */,
 				96717B121DBE6AF600DA84DB /* CaptureController.swift in Sources */,
@@ -1134,7 +1117,6 @@
 				96BCB7CB1CB40DC500C806FE /* PulseAnimation.swift in Sources */,
 				96BCB7AE1CB40DC500C806FE /* Material+UIFont.swift in Sources */,
 				9697F7B71D8F22A4004741EC /* MenuItem.swift in Sources */,
-				96BCB7D91CB40DC500C806FE /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
